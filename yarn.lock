@@ -2467,6 +2467,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nmbl/gatsby-plugin-typegen@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@nmbl/gatsby-plugin-typegen@workspace:."
+  dependencies:
+    "@babel/cli": ^7.8.4
+    "@babel/core": ^7.8.4
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.8.3
+    "@babel/plugin-proposal-optional-chaining": ^7.8.3
+    "@babel/plugin-transform-flow-comments": ^7.8.3
+    "@babel/plugin-transform-named-capturing-groups-regex": ^7.8.3
+    "@babel/preset-typescript": ^7.8.3
+    "@babel/runtime": ^7.8.4
+    "@graphql-codegen/core": ^1.12.2
+    "@graphql-codegen/flow": ^1.12.2
+    "@graphql-codegen/flow-operations": ^1.12.2
+    "@graphql-codegen/flow-resolvers": ^1.12.2
+    "@graphql-codegen/typescript": ^1.12.2
+    "@graphql-codegen/typescript-operations": ^1.12.2
+    "@graphql-codegen/typescript-resolvers": ^1.12.2
+    "@graphql-toolkit/common": ^0.9.7
+    "@graphql-toolkit/core": ^0.9.7
+    "@types/async": ^3.0.7
+    "@types/common-tags": ^1.8.0
+    "@types/graphql": ^14.5.0
+    "@types/jest": ^25.1.2
+    "@types/node": ^13.7.1
+    "@yarnpkg/pnpify": ^2.0.0-rc.18
+    async: ^3.1.1
+    babel-jest: ^25.1.0
+    babel-preset-gatsby-package: ^0.2.16
+    common-tags: ^1.8.0
+    gatsby: ^2.19.17
+    graphql: ^14.6.0
+    jest: ^25.1.0
+    typescript: ^3.7.5
+    utility-types: ^3.10.0
+  peerDependencies:
+    gatsby: ">=2.0.0"
+    graphql: ^0.13.0 || ^14.0.0
+    react: ^16.4.2
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.2":
   version: 2.1.2
   resolution: "@nodelib/fs.scandir@npm:2.1.2"
@@ -8057,49 +8100,6 @@ fsevents@^1.2.7:
   checksum: 2/5463520eddb05113b143aaf2176acd847ed0279ec6fe41c5346cdd06e1c170800b5df97ac7c33113cbf597b0078c3cbe1f234c05ba9e430a2ff21c7554b5e9d4
   languageName: node
   linkType: hard
-
-"gatsby-plugin-typegen@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gatsby-plugin-typegen@workspace:."
-  dependencies:
-    "@babel/cli": ^7.8.4
-    "@babel/core": ^7.8.4
-    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.8.3
-    "@babel/plugin-proposal-optional-chaining": ^7.8.3
-    "@babel/plugin-transform-flow-comments": ^7.8.3
-    "@babel/plugin-transform-named-capturing-groups-regex": ^7.8.3
-    "@babel/preset-typescript": ^7.8.3
-    "@babel/runtime": ^7.8.4
-    "@graphql-codegen/core": ^1.12.2
-    "@graphql-codegen/flow": ^1.12.2
-    "@graphql-codegen/flow-operations": ^1.12.2
-    "@graphql-codegen/flow-resolvers": ^1.12.2
-    "@graphql-codegen/typescript": ^1.12.2
-    "@graphql-codegen/typescript-operations": ^1.12.2
-    "@graphql-codegen/typescript-resolvers": ^1.12.2
-    "@graphql-toolkit/common": ^0.9.7
-    "@graphql-toolkit/core": ^0.9.7
-    "@types/async": ^3.0.7
-    "@types/common-tags": ^1.8.0
-    "@types/graphql": ^14.5.0
-    "@types/jest": ^25.1.2
-    "@types/node": ^13.7.1
-    "@yarnpkg/pnpify": ^2.0.0-rc.18
-    async: ^3.1.1
-    babel-jest: ^25.1.0
-    babel-preset-gatsby-package: ^0.2.16
-    common-tags: ^1.8.0
-    gatsby: ^2.19.17
-    graphql: ^14.6.0
-    jest: ^25.1.0
-    typescript: ^3.7.5
-    utility-types: ^3.10.0
-  peerDependencies:
-    gatsby: ">=2.0.0"
-    graphql: ^0.13.0 || ^14.0.0
-    react: ^16.4.2
-  languageName: unknown
-  linkType: soft
 
 "gatsby-react-router-scroll@npm:^2.1.21":
   version: 2.1.21
