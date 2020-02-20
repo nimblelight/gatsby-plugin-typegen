@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-typegen",
+  "name": "@nmbl/gatsby-plugin-typegen",
   "description": "Gatsby plugin that watch your static/page queries and automatically generates TypeScript/Flow definitions.",
   "version": "1.1.1",
   "main": "index.js",
